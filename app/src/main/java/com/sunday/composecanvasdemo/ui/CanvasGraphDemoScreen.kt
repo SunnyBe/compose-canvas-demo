@@ -142,7 +142,7 @@ fun CanvasGraphDemoScreen(modifier: Modifier = Modifier) {
         }
 
         BasicText(
-            text = "Tap empty space to add a node. Drag a node to move it.",
+            text = "Drag on empty space to add a node. Drag an existing node to move it.",
             modifier = Modifier
                 .align(Alignment.TopCenter)
                 .padding(top = 48.dp),
